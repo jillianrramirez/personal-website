@@ -1,0 +1,253 @@
+/*
+Project: Personal Website
+Description: This is our personal site project. It will be posted on Github using gh-pages.
+Color Theme:
+  - Primary Color: #5A4A53 (violet);
+  - Secondary Color: #B4A393 (taupe);
+  - Complement Color: #171526 (bluish);
+  - Base Color: #8C9188 (grey);
+*/
+/*===== Global Styles =====*/
+body, html {
+margin: 0;
+padding: 0;
+}
+
+/*Get rid of bullets*/
+ul {
+  list-style: none;
+}
+
+/*Get rid of the underline*/
+a {
+  text-decoration: none;
+  color: #8C9188;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+#about-me {
+  margin: 0;
+}
+
+
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.border {
+  border-bottom: 2px solid #fff;
+  padding: 20px 0px;
+}
+
+#footer {
+  margin:0;
+}
+
+#footer h5 {
+  margin: 0;
+}
+
+/*===== Header Styles =====*/
+header{
+  height: 100px;
+  background-color: #5A4A53;
+}
+
+/*To control the color of list items in header*/
+header a {
+  color: #8C9188;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+
+.logo h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.menu {
+  width: 30%;
+  float: left;
+  margin-top: 25px;
+}
+
+.menu li {
+  float: left;
+}
+
+/*To put the line between list items*/
+.menu li:after{
+  padding-right: 7px;
+  content: " | "
+}
+
+.sm-icons {
+  width: 30%;
+  float: right;
+  margin-top: 40px;
+}
+
+.sm-icons a{
+  padding-right: 7px;
+}
+
+.contact-icons {
+  width: 30%;
+  text-align: center;
+}
+
+
+/*===== Banner Styles =====*/
+
+#banner{
+  height: 350px;
+  background: url("../img/palmsky.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+#banner h1 {
+  font-size: 3em;
+
+}
+.banner-text{
+  padding: 90px 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+/**/
+.border{
+  border-bottom: 1px solid #bbb;
+}
+#services{
+  padding: 30px 0px;
+  height: 500px;
+}
+
+#services .box{
+  width: 25%;
+  margin: 0 1%;
+  float:left;
+  height: 100%;
+  padding: 15px 20px;
+  border: 2px solid #333;
+  height: 100%;
+}
+
+/*===== Skills Styles =====*/
+
+#skills {
+  background-color: #B4A393;
+  height: 475px;
+  color: #fff;
+}
+
+#skills .box {
+  height: 100%;
+  width: 25%;
+  border: 2px solid #171526;
+  display: inline-block;
+  margin: 30px 2% 10px 2%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  /*you can mix and match pixels and percentages!*/
+}
+
+.skills-icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px auto;
+  border: 2px solid #5A4A53;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.skills-icon i {
+  font-size: 2em;
+  color: #171526;
+  margin: 9px 8px;
+}
+
+.skills-info h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills-info p {
+  text-align: justify;
+  line-height: 22px;
+}
+
+/*===== About Me Styles =====*/
+#about-me {
+ background-color: #5A4A53;
+ height: 350px;
+ width: 100%;
+
+}
+
+.selfie img {
+  height: 30%;
+  width: 30%;
+  float: left;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+.personal-info {
+  height: 60%;
+  width: 60%;
+  float: right;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.personal-info h1 {
+  text-align: center;
+}
+
+/*===== Footer Styles =====*/
+#footer {
+  height: 150px;
+  width: 100%;
+  background-color: #171526;
+  padding-top: 50px;
+}
+
+#footer h5 {
+  color: #fff;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-icons {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-color: #8C9188;
+  margin: 0px auto;
+  border: 2px solid #5A4A53;
+  border-radius: 100%;
+  float: left;
+
+}
+
+.contact-icons i {
+  color: #fff;
+  font-size: 2em;
+  padding-top: 15px;
+}
