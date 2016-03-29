@@ -2,7 +2,7 @@
 Project: Personal Website
 Description: This is our personal site project. It will be posted on Github using gh-pages.
 Color Theme:
-  - Primary Color: #EF403C (red)
+  - Primary Color: #EF403C (red); #9A8F97
   - Secondary Color: #5F6273 (bluish grey)
   - Complement Color: #A4ABBF (periwinkle)
   - Base Color: #CCC9D1 (mist)
@@ -30,6 +30,16 @@ h1, h2 {
   margin: 0;
 }
 
+h1 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+}
+
 #about-me {
   margin: 0;
 }
@@ -53,10 +63,22 @@ h1, h2 {
   margin: 0;
 }
 
+#contact-me {
+  margin:0;
+}
+#contact-me h1 {
+  margin:0;
+}
+
+.map-box {
+  margin: 0;
+}
+
+
 /*===== Header Styles =====*/
 header{
   height: 100px;
-  background-color: #EF403C;
+  background-color: #9A8F97;
 }
 
 /*To control the color of list items in header*/
@@ -83,11 +105,12 @@ header a {
 
 .menu li {
   float: left;
+  padding-left: 10px;
 }
 
 /*To put the line between list items*/
 .menu li:after{
-  padding-right: 7px;
+  padding-left: 10px;
   content: " | "
 }
 
@@ -119,7 +142,7 @@ header a {
 
 #banner h1 {
   font-size: 3em;
-
+  margin-top: 75px;
 }
 .banner-text{
   padding: 90px 0;
@@ -150,7 +173,7 @@ header a {
 /*===== Skills Styles =====*/
 
 #skills {
-  background-color: #B4A393;
+  background-color: #E9E3E6;
   height: 475px;
   color: #fff;
 }
@@ -158,11 +181,12 @@ header a {
 #skills .box {
   height: 100%;
   width: 25%;
-  border: 2px solid #EF403C;
+  border: 2px solid #9A8F97;
   display: inline-block;
   margin: 30px 2% 10px 2%;
   padding: 15px 20px;
   border-radius: 5px;
+  background-color: #B2B2B2;
   /*you can mix and match pixels and percentages!*/
 }
 
@@ -170,7 +194,7 @@ header a {
   height: 50px;
   width: 50px;
   margin: 0px auto;
-  border: 2px solid #EF403C;
+  border: 2px solid #9A8F97;
   border-radius: 100%;
   background-color: #fff;
 }
@@ -242,7 +266,7 @@ header a {
 
 .contact {
   margin: 20px auto;
-  width: 170px;
+  width: 190px;
   height: 50px;
 
 }
@@ -256,11 +280,12 @@ header a {
   display: inline-block;
   height: 50px;
   width: 50px;
-  background-color: #EF403C;
+  background-color: #9A8F97;
   margin: 0px auto;
-  border: 2px solid #EF403C;
+  border: 2px solid #9A8F97;
   border-radius: 100%;
   float: left;
+  margin-left: 8px;
 
 }
 
@@ -269,4 +294,127 @@ header a {
   font-size: 2em;
   padding: 7px 7px;
   margin: 2px 3px;
+}
+
+
+/*===== ABOUT PAGE STYLES =====*/
+
+/*==== Video Section =====*/
+#video-sec {
+  height: 600px;
+  width: 100%;
+  background-color: #5F6273;
+}
+
+.vid-box {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 154.5px;
+
+}
+
+#video-sec iframe {
+  width: 75%;
+  height: 100%;
+}
+
+/*===== About Me Styles =====*/
+#about {
+  height: 400px;
+  width: 100%;
+  background-color: #A4ABBF;
+}
+
+#about h1 {
+  text-align: center;
+  margin-top: 75px;
+}
+
+#about p {
+  display: inline-block;
+  margin: 25px 25px 25px 50px;
+  float: left;
+  text-align: justify;
+}
+.bio {
+  height: 75%;
+  width: 60%;
+  float: left;
+}
+
+.portrait img {
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin: 57px 61px;
+  border-radius: 10%;
+}
+
+/*===== Contact Page Styles =====*/
+ /*===== Map Section =====*/
+#map-sec {
+  height: 460px;
+  width: 100%;
+  background-color: #C3BABA;
+}
+
+.map-box iframe {
+  width: 100%;
+  pointer-events: none;
+}
+
+
+
+/*===== Contact Form Style =====*/
+#contact-me {
+  width: 100%;
+  height: 400px;
+  background-color: #94947E;
+}
+
+#contact-me h1 {
+  text-align: center;
+  padding-top: 35px;
+  color: #fff;
+}
+
+/*.user-info {
+  width: 60%;
+  height: 75%;
+  float: left;
+}*/
+
+.user-fields {
+  height: 75%;
+  width: 500px;
+  margin: 0px auto;
+  float: left;
+  padding-left: 163px;
+}
+
+.bar input {
+  width: 100%;
+  height: 35px;
+}
+
+.message textarea {
+  width: 100%;
+  height: 75px;
+}
+
+.my-info {
+  width: 200px;
+  height: 150px;
+  float: right;
+  padding-right: 125px;
+}
+
+.my-info p {
+  color: #fff;
+}
+
+.submit {
+  float: right;
+  padding-right: 230px;
 }
