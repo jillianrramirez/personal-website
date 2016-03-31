@@ -2,12 +2,13 @@
 Project: Personal Website
 Description: This is our personal site project. It will be posted on Github using gh-pages.
 Color Theme:
-  - Primary Color: #EF403C (red); #9A8F97
-  - Secondary Color: #5F6273 (bluish grey)
-  - Complement Color: #A4ABBF (periwinkle)
-  - Base Color: #CCC9D1 (mist)
+  - Primary Color: #9A8F97
+  - Secondary Color: #E9E3E6
+  - Complement Color: #C3BABA (periwinkle)
+  - Base Color: #B2B2B2
   ** #E2E1E9 (whiteish)
   *** #94947E (sage)
+  -contain-yourself border: #F66D0D
 */
 /*===== Global Styles =====*/
 body, html {
@@ -38,6 +39,11 @@ h1 {
 p {
   font-family: 'Philosopher', sans-serif;
   font-weight: 400;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
 }
 
 #about-me {
@@ -142,12 +148,18 @@ header a {
 
 #banner h1 {
   font-size: 3em;
-  margin-top: 75px;
+  margin-top: 35px;
 }
 .banner-text{
   padding: 90px 0;
   margin: 0;
   text-align: center;
+}
+.contain-yourself {
+  width: 675px;
+  height: 120px;
+  margin: 60px 262px;
+  border: 3px solid #F66D0D;
 }
 
 
@@ -375,8 +387,11 @@ header a {
 
 #contact-me h1 {
   text-align: center;
+  width: 200px;
+  margin-left: 315px;
   padding-top: 35px;
   color: #fff;
+  font-family: sans-serif;
 }
 
 /*.user-info {
